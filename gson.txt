@@ -1,0 +1,16 @@
+{
+  "name": "alice",
+  "age": 21
+}
+{
+  "name": "ryan",
+  "age": 30
+}
+{
+  "name": "bob",
+  "age": 25
+}
+{
+  "name": "chris",
+  "age": 29
+}
