@@ -1,17 +1,31 @@
 package org.example;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    public static void main(String[] args) throws IOException, FileNotFoundException {
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+//        File file = new File("test.txt");
+//        System.out.println(file.exists());
+//        CustomReader.fileReader(file);
+
+        // File file2 = new File("test2.txt");
+//        System.out.println(file2.exists());
+//        WordCounter.counter(file2);
+//        String sourceFilePath = "test2.txt";
+
+        //друге завання
+//        String sourceFilePath = "test3.txt";
+//        List<User> userList = User.getUsers(sourceFilePath);
+//        User.toGSON(userList);
+
+
     }
 }
